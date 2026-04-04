@@ -1,0 +1,5 @@
+uv.lock
+__pycache__
+*.pyc
+.venv
+openenv_cp_arena_env.egg-info

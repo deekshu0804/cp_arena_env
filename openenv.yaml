@@ -1,0 +1,9 @@
+spec_version: 1
+name: cp_arena_env
+type: space
+runtime: fastapi
+app: server.app:app
+port: 8000
+metadata:
+  readme: README.md
+
