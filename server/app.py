@@ -53,6 +53,16 @@ app = create_app(
     max_concurrent_envs=1,  # increase this number to allow more concurrent WebSocket sessions
 )
 
+from fastapi.responses import RedirectResponse
+
+@app.get("/")
+def redirect_root():
+    return RedirectResponse(url="/docs")
+
+@app.get("/web")
+def redirect_web():
+    return RedirectResponse(url="/docs")
+
 
 def main(host: str = "0.0.0.0", port: int = 8000):
     """
