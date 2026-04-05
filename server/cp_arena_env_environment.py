@@ -11,7 +11,7 @@ try:
 except ImportError:
     from ..models import CpArenaEnvAction, CpArenaEnvObservation, CpArenaEnvState  # type: ignore
 
-DATASET_PATH = os.path.join(os.path.dirname(__file__), "dataset", "problems.json")
+DATASET_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "dataset", "problems.json"))
 
 def load_problems():
     with open(DATASET_PATH, "r") as f:
