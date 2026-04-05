@@ -5,6 +5,7 @@ colorFrom: indigo
 colorTo: blue
 sdk: docker
 app_port: 8000
+base_path: /health
 pinned: false
 ---
 # CP-Arena: Decision-Making Under Uncertainty — An RL Environment for Algorithm Reasoning
