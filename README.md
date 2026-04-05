@@ -4,6 +4,7 @@ emoji: 🧠
 colorFrom: indigo
 colorTo: blue
 sdk: docker
+app_port: 8000
 pinned: false
 ---
 # CP-Arena: Decision-Making Under Uncertainty — An RL Environment for Algorithm Reasoning
