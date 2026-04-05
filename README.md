@@ -1,3 +1,11 @@
+---
+title: CP Arena Env
+emoji: 🧠
+colorFrom: indigo
+colorTo: blue
+sdk: docker
+pinned: false
+---
 # CP-Arena: Decision-Making Under Uncertainty — An RL Environment for Algorithm Reasoning
 
 CP-Arena is a **partially observable reinforcement learning environment** that models one of the hardest real-world cognitive skills: **making correct decisions with incomplete information, under time pressure, with costly mistakes**.
