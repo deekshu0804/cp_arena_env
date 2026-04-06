@@ -4,7 +4,7 @@ import textwrap
 from typing import List
 from openai import OpenAI
 from cp_arena_env.client import CpArenaEnv
-from cp_arena_env.models import CpArenaAction
+from cp_arena_env.models import CpArenaEnvAction
 
 API_KEY = os.getenv("HF_TOKEN") or os.getenv("API_KEY")
 API_BASE_URL = os.getenv("API_BASE_URL", "https://router.huggingface.co/v1")
